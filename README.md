@@ -8,8 +8,8 @@ The thesis studies speaker diarization in dense multi-speaker meetings, with a b
 
 | Path | Contents |
 | --- | --- |
-| [`thesis/thesis_yihao.pdf`](thesis/thesis_yihao.pdf) | Compiled thesis PDF. |
-| [`thesis/thesis_ntu.zip`](thesis/thesis_ntu.zip) | Raw LaTeX source, bibliography files, NTU thesis class, styles, and thesis figures. |
+| [`thesis_yihao.pdf`](thesis_yihao.pdf) | Compiled thesis PDF. |
+| [`thesis_ntu.zip`](thesis_ntu.zip) | Raw LaTeX source, bibliography files, NTU thesis class, styles, and thesis figures. |
 | [`slides`](slides) | Thesis presentation slides and generated slide assets. |
 | [`docs/thesis-improvement-learning.md`](docs/thesis-improvement-learning.md) | My learning notes on how to improve the thesis structure, writing, figures, and reproducibility. |
 | [`docs/reproduce.md`](docs/reproduce.md) | Step-by-step notes for rebuilding the thesis and rerunning the research workflow. |
@@ -41,7 +41,7 @@ The thesis studies speaker diarization in dense multi-speaker meetings, with a b
 
 Start from [`docs/reproduce.md`](docs/reproduce.md). The short version is:
 
-1. Extract [`thesis/thesis_ntu.zip`](thesis/thesis_ntu.zip) and build the thesis from `mythesis.tex`.
+1. Extract [`thesis_ntu.zip`](thesis_ntu.zip) and build the thesis from `mythesis.tex`.
 2. Prepare the Multi-Talker-SD data generation environment from the dataset repository.
 3. Run the diarization baselines and the separation-enhanced clustering experiments.
 4. Regenerate figures from experiment outputs and update the LaTeX source.
